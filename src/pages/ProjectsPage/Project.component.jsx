@@ -65,27 +65,35 @@ export default function ProjectPage() {
         </p>
       </div>
       <div className="flex flex-wrap">
-        <ProjectContainer data-aos="fade-right">
+        <ProjectContainer data-aos="zoom-in">
           <ProjectImage />
           <ProjectTitle data-aos="">Text here</ProjectTitle>
         </ProjectContainer>
-        <ProjectContainer data-aos="fade-left">
+        <ProjectContainer data-aos="zoom-in">
           <ProjectImage />
           <ProjectTitle>Text here</ProjectTitle>
         </ProjectContainer>
-        <ProjectContainer data-aos="fade-right">
+        <ProjectContainer data-aos="zoom-in">
+          <ProjectImage />
+          <ProjectTitle data-aos="">Text here</ProjectTitle>
+        </ProjectContainer>
+        <ProjectContainer data-aos="zoom-in">
           <ProjectImage />
           <ProjectTitle>Text here</ProjectTitle>
         </ProjectContainer>
-        <ProjectContainer data-aos="fade-left">
+        <ProjectContainer data-aos="zoom-in">
+          <ProjectImage />
+          <ProjectTitle data-aos="">Text here</ProjectTitle>
+        </ProjectContainer>
+        <ProjectContainer data-aos="zoom-in">
           <ProjectImage />
           <ProjectTitle>Text here</ProjectTitle>
         </ProjectContainer>
-        <ProjectContainer data-aos="fade-right">
+        <ProjectContainer data-aos="zoom-in">
           <ProjectImage />
-          <ProjectTitle>Text here</ProjectTitle>
+          <ProjectTitle data-aos="">Text here</ProjectTitle>
         </ProjectContainer>
-        <ProjectContainer data-aos="fade-left">
+        <ProjectContainer data-aos="zoom-in">
           <ProjectImage />
           <ProjectTitle>Text here</ProjectTitle>
         </ProjectContainer>
