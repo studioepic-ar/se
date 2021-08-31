@@ -1,5 +1,5 @@
-// let { BrowserRouter, Switch, Route, NavLink } = ReactRouterDOM;
-import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
+// import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import "./Navbar.styles.scss";
 import logo from "../../assets/cropped logo black.png";
