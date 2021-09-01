@@ -1,0 +1,119 @@
+input[type="file"] {
+  //   color: red;
+  //   background-color: wheat;
+  padding: 5px 15px;
+  //   margin: 2px;
+}
+
+// .new-button {
+//   display: inline-block;
+//   padding: 8px 12px;
+//   cursor: pointer;
+//   border-radius: 4px;
+//   background-color: #9c27b0;
+//   font-size: 16px;
+//   color: #fff;
+// }
+// input[type="file"] {
+//   position: absolute;
+//   z-index: -1;
+//   top: 6px;
+//   left: 0;
+//   font-size: 15px;
+//   color: rgb(153, 153, 153);
+// }
+
+// .inputfile {
+//   width: 0.1px;
+//   height: 0.1px;
+//   opacity: 0;
+//   overflow: hidden;
+//   position: absolute;
+//   z-index: -1;
+// }
+
+// .inputfile + label {
+//   font-size: 1.25em;
+//   font-weight: 700;
+//   color: white;
+//   background-color: black;
+//   display: inline-block;
+//   cursor: pointer;
+// }
+
+// .inputfile:focus + label,
+// .inputfile + label:hover {
+//   background-color: red;
+// }
+
+// .careers-form {
+//   padding: 50px 20px 50px;
+
+//   @media screen and (max-width: 768px) {
+//     padding-top: 100px;
+//   }
+
+//   h1 {
+//     text-align: center;
+//   }
+
+//   margin: auto;
+//   width: 60%;
+//   justify-content: start;
+//   display: flex;
+//   flex-direction: column;
+
+//   .careers {
+//     justify-content: start;
+
+//     p {
+//       padding-top: 1rem;
+//       margin: unset;
+//     }
+
+//     input,
+//     textarea {
+//       width: 100%;
+//       margin-top: 0.8rem;
+//       margin-bottom: 1rem;
+//       box-sizing: border-box;
+//       text-align: left;
+//       appearance: none;
+//       color: rgb(130, 130, 130);
+//       transition: all 0.2s ease 0s;
+//       border-width: 1px;
+//       border-color: rgb(33, 33, 33);
+//       border-style: solid;
+//       border-radius: 4px;
+//       padding: 0.6rem 1rem;
+//       resize: none;
+//     }
+
+//     button {
+//       background-image: linear-gradient(0deg, #4085d6 0%, #2bb2bb 100%);
+//       cursor: pointer;
+//       color: rgb(255, 255, 255);
+//       width: 160px;
+//       height: 50px;
+//       box-shadow: rgb(106, 147, 255) 0px 4px 0px -4px;
+//       appearance: none;
+//       user-select: none;
+//       border-radius: 40px;
+//       margin: 0px auto;
+//       border-width: initial;
+//       border-style: none;
+//       border-color: initial;
+//       border-image: initial;
+//       margin-bottom: 3rem;
+//       margin-top: 1.3rem;
+
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//     }
+//   }
+// }
+
+// a {
+//   color: #3c8cd1;
+// }
