@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/se/static/css/main.d40a3499.chunk.css",
+    "main.js": "/se/static/js/main.69df75ac.chunk.js",
+    "main.js.map": "/se/static/js/main.69df75ac.chunk.js.map",
+    "runtime-main.js": "/se/static/js/runtime-main.f09478dc.js",
+    "runtime-main.js.map": "/se/static/js/runtime-main.f09478dc.js.map",
+    "static/css/2.fb4a6d94.chunk.css": "/se/static/css/2.fb4a6d94.chunk.css",
+    "static/js/2.ae32ad77.chunk.js": "/se/static/js/2.ae32ad77.chunk.js",
+    "static/js/2.ae32ad77.chunk.js.map": "/se/static/js/2.ae32ad77.chunk.js.map",
+    "index.html": "/se/index.html",
+    "static/css/2.fb4a6d94.chunk.css.map": "/se/static/css/2.fb4a6d94.chunk.css.map",
+    "static/css/main.d40a3499.chunk.css.map": "/se/static/css/main.d40a3499.chunk.css.map",
+    "static/js/2.ae32ad77.chunk.js.LICENSE.txt": "/se/static/js/2.ae32ad77.chunk.js.LICENSE.txt",
+    "static/media/cropped logo black.15cee866.png": "/se/static/media/cropped logo black.15cee866.png",
+    "static/media/interior-design.0d9d90f9.png": "/se/static/media/interior-design.0d9d90f9.png",
+    "static/media/landscape.a622f5af.png": "/se/static/media/landscape.a622f5af.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f09478dc.js",
+    "static/css/2.fb4a6d94.chunk.css",
+    "static/js/2.ae32ad77.chunk.js",
+    "static/css/main.d40a3499.chunk.css",
+    "static/js/main.69df75ac.chunk.js"
+  ]
+}
