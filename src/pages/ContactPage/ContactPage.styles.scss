@@ -1,0 +1,41 @@
+.cont-main {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: space-evenly;
+
+  @media screen and (max-width: 960px) {
+    flex-direction: column-reverse;
+  }
+
+  .sep-div-form {
+    width: 55%;
+    height: auto;
+    // background-color: red;
+
+    @media screen and (max-width: 960px) {
+      margin: auto;
+      width: 100%;
+    }
+  }
+  .sep-div-cont {
+    // max-width: 40%;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    // background-color: red;
+    @media screen and (max-width: 960px) {
+      margin: auto;
+      min-width: 40%;
+      width: fit-content;
+    }
+  }
+
+  //   .send-btn {
+  //     // hover:bg-gray-300 hover:text-black
+  //     :hover {
+  //       background-color: #e2e8f0;
+  //       color: black;
+  //     }
+  //   }
+}
