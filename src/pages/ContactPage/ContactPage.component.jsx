@@ -10,7 +10,7 @@ function ContactPage() {
       <NavBar />
       <div className="cont-main">
         <div className="sep-div-form ">
-          <div data-aos="">
+          <div data-aos="fade-down">
             <p className="text-4xl text-center mt-8 tracking-wider">
               GET IN TOUCH
             </p>
@@ -18,7 +18,7 @@ function ContactPage() {
               Lorem ipsum dolor sit amet.
             </p>
           </div>
-          <form action="" data-aos="" className="mb-6">
+          <form action="" data-aos="fade-up" className="mb-6">
             <div className="m-auto  w-4/5 sm:w-3/5 md:w-2/4 justify-center">
               <div className="my-4">
                 <p className="mb-1">Email:</p>
@@ -78,7 +78,7 @@ function ContactPage() {
               </div>
               <button
                 type="submit"
-                className="send-btn border-solid rounded-3xl   text-lg px-3 py-1 text-white bg-black transition duration-500 ease-in-out "
+                className="send-btn border-solid rounded-3xl hover:bg-gray-300 hover:text-black  text-lg px-3 py-1 text-white bg-black transition duration-500 ease-in-out "
               >
                 Send Message
               </button>
@@ -86,30 +86,45 @@ function ContactPage() {
           </form>
         </div>
         <div className="sep-div-cont border-solid border-4 flex flex-col mt-8">
-          <div data-aos="">
+          <div data-aos="fade-right">
             <p className="text-3xl text-center tracking-wider underline mb-2">
               CONTACT US
             </p>
           </div>
 
-          <div className="flex flex-row items-center m-2">
-            <Icon.Envelope size={25} className="mr-4" />
+          <div
+            data-aos="fade-left"
+            className="flex flex-row items-center m-2 hover:underline"
+          >
+            <Icon.Envelope size={25} className="mr-4 " />
             <a href="mailto:studioepic.ar@gmail.com">studioepic.ar@gmail.com</a>
           </div>
-          <div className="flex flex-row items-center m-2">
-            <Icon.Telephone size={25} className="mr-4" />
+          <div
+            data-aos="fade-left"
+            className="flex flex-row items-center m-2 hover:underline"
+          >
+            <Icon.Telephone size={25} className="mr-4 " />
             <a href="tel:7338227902">PRAJWAL H A: 7338227902</a>
           </div>
-          <div className="flex flex-row items-center m-2">
-            <Icon.Telephone size={25} className="mr-4" />
+          <div
+            data-aos="fade-left"
+            className="flex flex-row items-center m-2 hover:underline"
+          >
+            <Icon.Telephone size={25} className="mr-4 " />
             <a href="tel:9448230002">ASHOK H B: 9448230002</a>
           </div>
-          <div className="flex flex-row items-center m-2">
-            <Icon.Instagram size={25} className="mr-4" />
+          <div
+            data-aos="fade-left"
+            className="flex flex-row items-center m-2 hover:underline"
+          >
+            <Icon.Instagram size={25} className="mr-4 " />
             <a href="#">link</a>
           </div>
-          <div className="flex flex-row items-center m-2">
-            <Icon.Telegram size={25} className="mr-4" />
+          <div
+            data-aos="fade-left"
+            className="flex flex-row items-center m-2 hover:underline"
+          >
+            <Icon.Telegram size={25} className="mr-4 " />
             <a href="#">link</a>
           </div>
         </div>

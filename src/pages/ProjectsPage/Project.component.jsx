@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
 import NavBar from "../../components/NavBar/Navbar.component";
 
@@ -13,7 +13,8 @@ const ProjectContainer = styled.div`
   width: 50%;
   height: 300px;
   border: solid 1px;
-  background-color: red;
+  background-color: transparent;
+  /* background-color: red; */
   overflow: hidden;
 
   @media only screen and (max-width: 767px) {
@@ -50,9 +51,9 @@ const ProjectTitle = styled.h1`
 `;
 
 export default function ProjectPage() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 2000 });
+  // }, []);
   return (
     <div>
       <NavBar />

@@ -8,8 +8,8 @@ import MasPlanIcon from "../../assets/services_icons/master-plan.png";
 
 function Services() {
   return (
-    <div className="lg:mb-6">
-      <div data-aos="fade-down" className="mb-6">
+    <div className="md:mb-16">
+      <div data-aos="fade-down" className="mb-8">
         <p className="text-4xl text-center tracking-wider">Our Services</p>
         <p className="text-2xl text-center tracking-wider">subtitle</p>
       </div>

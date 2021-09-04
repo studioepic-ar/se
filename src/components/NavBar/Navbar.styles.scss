@@ -97,6 +97,7 @@
 .nav-item:hover:after {
   width: 100%;
   letter-spacing: 0.5px;
+
   // background: #0c0c0c;
   background: #000000;
 }
@@ -112,6 +113,10 @@
 
 .nav-icon {
   display: none;
+
+  :hover {
+    color: black;
+  }
 }
 
 @media screen and (max-width: 960px) {
