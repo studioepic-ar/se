@@ -118,14 +118,14 @@ function ContactPage() {
             className="flex flex-row items-center m-2 hover:underline"
           >
             <Icon.Instagram size={25} className="mr-4 " />
-            <a href="#">link</a>
+            <a href="/contact">link</a>
           </div>
           <div
             data-aos="fade-left"
             className="flex flex-row items-center m-2 hover:underline"
           >
             <Icon.Telegram size={25} className="mr-4 " />
-            <a href="#">link</a>
+            <a href="/contact">link</a>
           </div>
         </div>
       </div>
