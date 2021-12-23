@@ -23,6 +23,10 @@ const CareersPage = (props) => {
   //   props.handleFile(fileUploaded);
   // };
 
+  function thankYou(){
+    alert("Thank you for applying. We look forward to take you through our selection process.")
+  }
+
   return (
     <div className="mb-12">
       <NavBar />
@@ -32,7 +36,12 @@ const CareersPage = (props) => {
           Enter your details below to apply.
         </p>
       </div>
-      <form action="" data-aos="fade-up">
+      {/* <form action="" method="POST" data-aos="fade-up"> */}
+      <form action="https://formsubmit.co/studioepic.ar@gmail.com" method="POST" data-aos="fade-up">
+      <input type="hidden" name="_subject" value="New submission on careers page!"></input>
+      <input type="hidden" name="_captcha" value="false"></input>
+      <input type="hidden" name="_template" value="table"></input>
+      <input type="hidden" name="_next" value="https://studioepic.netlify.app/"></input>
         <div className="m-auto w-4/5 sm:w-3/5 md:w-2/4 lg:w-1/3 justify-center">
           <div className="my-5">
             <p className="mb-1">Email:</p>
@@ -74,13 +83,13 @@ const CareersPage = (props) => {
               className="border border-solid bg-gray-100 rounded-2xl w-full p-2 h-10 outline-none"
             />
           </div>
-          <div className="my-5 relative">
-            <p className="mb-1">Resume:</p>
+          <div className="my-5">
+            <p className="mb-1">Resume Link:</p>
             <input
               required
-              type="file"
-              name="file"
-              id="file"
+              type="text"
+              name="resume"
+              id="resume"
               className=" border border-solid bg-gray-100 rounded-2xl w-full p-2 h-10 outline-none"
             />
           </div>
@@ -96,6 +105,7 @@ const CareersPage = (props) => {
           </div>
           <button
             type="submit"
+            onClick={thankYou}
             className="border-solid  rounded-3xl hover:bg-gray-300 hover:text-black  text-lg px-3 py-1 text-white bg-black transition duration-500 ease-in-out "
           >
             Submit application
