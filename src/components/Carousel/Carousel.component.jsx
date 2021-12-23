@@ -42,41 +42,35 @@ function SlideShow() {
         showThumbs={false}
         interval={3000}
       >
-        <CImage image="https://source.unsplash.com/user/erondu/1600x900">
+        <CImage image="https://i.ibb.co/kmVsQ1s/r-architecture-2g-Dwl-Iim3-Uw-unsplash.jpg">
+        {/* <CImage image="https://i.ibb.co/xXGVsT0/marc-olivier-jodoin-o-Thn-HPkb3p8-unsplash.jpg"> */}
+        {/* <CImage image="https://i.ibb.co/k9JRDdJ/li-yang-Co-Wc-Jmb-UCWw-unsplash.jpg"> */}
           <CMessage>
-            <h1 className="text-2xl sm:text-3xl font-light">
-              Lorem ipsum dolor sit amet.
+            <h1 className="text-2xl sm:text-3xl font-light italic lg:w-3/5">
+              “One of the great beauties of architecture is that each time, it
+              is like life starting all over again.”
             </h1>
-            <p className="text-lg sm:text-xl ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eos
-              sequi voluptate nostrum earum delectus ea est cupiditate, soluta
-              numquam!
-            </p>
+            <p className="text-lg sm:text-xl">– Renzo Piano</p>
           </CMessage>
         </CImage>
 
-        <CImage image="https://source.unsplash.com/random/1600x900">
+        <CImage image="https://i.ibb.co/k9JRDdJ/li-yang-Co-Wc-Jmb-UCWw-unsplash.jpg">
           <CMessage>
-            <h1 className="text-2xl sm:text-3xl font-light">
-              Lorem ipsum dolor sit amet.
+            <h1 className="text-2xl sm:text-3xl font-light italic lg:w-3/5">
+              “The mother art is architecture. Without an architecture of our
+              own we have no soul of our own civilization.”
+            </h1>
+            <p className="text-lg sm:text-xl">- Frank Lloyd Wright</p>
+          </CMessage>
+        </CImage>
+
+        <CImage image="https://i.ibb.co/xSxZbHc/kir-simakov-1y5-Pk-TZOMb-Q-unsplash.jpg">
+          <CMessage>
+            <h1 className="text-2xl sm:text-3xl font-light italic lg:w-3/5">
+            “Architecture should speak of its time and place, but yearn for timelessness.”  
             </h1>
             <p className="text-lg sm:text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eos
-              sequi voluptate nostrum earum delectus ea est cupiditate, soluta
-              numquam!
-            </p>
-          </CMessage>
-        </CImage>
-
-        <CImage image="https://source.unsplash.com/collection/190727/1600x900">
-          <CMessage>
-            <h1 className="text-2xl sm:text-3xl font-light">
-              Lorem ipsum dolor sit amet.
-            </h1>
-            <p className="text-lg sm:text-xl ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eos
-              sequi voluptate nostrum earum delectus ea est cupiditate, soluta
-              numquam!
+            – Frank Gehry
             </p>
           </CMessage>
         </CImage>

@@ -4,7 +4,7 @@
   background-position: center center;
   height: 350px;
   margin: auto;
-  width: 60%;
+  width: 75%;
   position: relative;
   margin-bottom: 2rem;
 
@@ -19,13 +19,15 @@
   }
 
   .sub-cont1 {
-    width: 50%;
-    margin: auto;
+    // padding: 5px;
+    // width: 50%;
+    // height: auto;
+    // margin: auto;
     position: absolute;
     // top: 0;
-    left: 0;
-    top: 40%;
-    left: 25%;
+    // left: 0;
+    // top: 40%;
+    // left: 25%;
     z-index: 100;
   }
 }

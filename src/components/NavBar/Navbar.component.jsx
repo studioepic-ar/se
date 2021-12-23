@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import "./Navbar.styles.scss";
 import logo from "../../assets/cropped logo black.png";
+import logo_new from "../../assets/logo_new.png";
 
 export default function NavBar() {
   const [click, setClick] = useState(false);
