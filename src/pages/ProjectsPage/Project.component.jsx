@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 
-// import Aos from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
+
 import NavBar from "../../components/NavBar/Navbar.component";
 
 const ProjectContainer = styled.div`
@@ -51,9 +52,9 @@ const ProjectTitle = styled.h1`
 `;
 
 export default function ProjectPage() {
-  // useEffect(() => {
-  //   Aos.init({ duration: 2000 });
-  // }, []);
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div>
       <NavBar />

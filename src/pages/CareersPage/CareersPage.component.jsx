@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import styled from "styled-components";
 import "aos/dist/aos.css";
 import NavBar from "../../components/NavBar/Navbar.component";
 import "./CareersPage.styles.scss";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const CareersPage = (props) => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="mb-12">
       <NavBar />
