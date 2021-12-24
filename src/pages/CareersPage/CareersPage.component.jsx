@@ -4,29 +4,7 @@ import "aos/dist/aos.css";
 import NavBar from "../../components/NavBar/Navbar.component";
 import "./CareersPage.styles.scss";
 
-// const CDiv = styled.div``;
-
-// const Button = styled.button`
-//   /* Insert your favorite CSS code to style a button */
-//   border-radius: 30px;
-//   border: solid;
-// `;
-
 const CareersPage = (props) => {
-  // const hiddenFileInput = React.useRef(null);
-
-  // const handleClick = (event) => {
-  //   hiddenFileInput.current.click();
-  // };
-  // const handleChange = (event) => {
-  //   const fileUploaded = event.target.files[0];
-  //   props.handleFile(fileUploaded);
-  // };
-
-  function thankYou(){
-    alert("Thank you for applying. We look forward to take you through our selection process.")
-  }
-
   return (
     <div className="mb-12">
       <NavBar />
@@ -105,7 +83,6 @@ const CareersPage = (props) => {
           </div>
           <button
             type="submit"
-            onClick={thankYou}
             className="border-solid  rounded-3xl hover:bg-gray-300 hover:text-black  text-lg px-3 py-1 text-white bg-black transition duration-500 ease-in-out "
           >
             Submit application
