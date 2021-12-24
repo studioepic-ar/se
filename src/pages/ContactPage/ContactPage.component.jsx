@@ -14,11 +14,15 @@ function ContactPage() {
             <p className="text-4xl text-center mt-8 tracking-wider">
               GET IN TOUCH
             </p>
-            <p className="text-2xl text-center mt-2 mb-2 tracking-wide">
-              Lorem ipsum dolor sit amet.
+            <p className="text-lg text-center mt-2 mb-2 tracking-wide">
+              WE ARE LOOKING FORWARD TO START A PROJECT WITH YOU!
             </p>
           </div>
-          <form action="" data-aos="fade-up" className="mb-6">
+          <form action="https://formsubmit.co/studioepic.ar@gmail.com" method="POST" data-aos="fade-up" className="mb-6">
+          <input type="hidden" name="_subject" value="New submission on Contact page!"></input>
+          <input type="hidden" name="_captcha" value="false"></input>
+          <input type="hidden" name="_template" value="table"></input>
+          <input type="hidden" name="_next" value="https://studioepic.netlify.app/"></input>
             <div className="m-auto  w-4/5 sm:w-3/5 md:w-2/4 justify-center">
               <div className="my-4">
                 <p className="mb-1">Email:</p>
@@ -56,6 +60,7 @@ function ContactPage() {
                 <select
                   id="projectType"
                   className="border border-solid bg-gray-100 rounded-2xl w-full p-2 h-10 outline-none"
+                  name="projectType"
                 >
                   <option value="Architecture" selected>
                     Architecture
@@ -66,7 +71,7 @@ function ContactPage() {
                 </select>
               </div>
               <div className="my-4">
-                <p className="mb-1">Mesaage:</p>
+                <p className="mb-1">Message:</p>
                 <textarea
                   required
                   rows="8"
@@ -117,6 +122,19 @@ function ContactPage() {
             data-aos="fade-left"
             className="flex flex-row items-center m-2 hover:underline"
           >
+            <Icon.GeoAlt size={25} className="mr-4 " />
+            <a href="https://goo.gl/maps/VuTEVnQpQR9ox2EH8" target="_blank" rel="noreferrer">NO-484, Saraswathi Sadana 
+            <span></span><br />
+            2nd main, 3rd Cross Rd, 
+            <span></span><br />
+            Lal Bahadur Shastri Nagar, 
+            <span></span><br />
+            Shivamogga, Karnataka - 577201</a>
+          </div>
+          <div
+            data-aos="fade-left"
+            className="flex flex-row items-center m-2 hover:underline"
+          >
             <Icon.Instagram size={25} className="mr-4 " />
             <a href="/contact">link</a>
           </div>
@@ -129,6 +147,7 @@ function ContactPage() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
