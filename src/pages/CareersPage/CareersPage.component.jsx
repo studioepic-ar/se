@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import "aos/dist/aos.css";
 import NavBar from "../../components/NavBar/Navbar.component";
 import "./CareersPage.styles.scss";
+import * as Icon from "react-bootstrap-icons";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -21,11 +22,23 @@ const CareersPage = (props) => {
         </p>
       </div>
       {/* <form action="" method="POST" data-aos="fade-up"> */}
-      <form action="https://formsubmit.co/studioepic.ar@gmail.com" method="POST" data-aos="fade-up">
-      <input type="hidden" name="_subject" value="New submission on careers page!"></input>
-      <input type="hidden" name="_captcha" value="false"></input>
-      <input type="hidden" name="_template" value="table"></input>
-      <input type="hidden" name="_next" value="https://studioepic.netlify.app/"></input>
+      <form
+        action="https://formsubmit.co/studioepic.ar@gmail.com"
+        method="POST"
+        data-aos="fade-up"
+      >
+        <input
+          type="hidden"
+          name="_subject"
+          value="New submission on careers page!"
+        ></input>
+        <input type="hidden" name="_captcha" value="false"></input>
+        <input type="hidden" name="_template" value="table"></input>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://studioepic.netlify.app/"
+        ></input>
         <div className="m-auto w-4/5 sm:w-3/5 md:w-2/4 lg:w-1/3 justify-center">
           <div className="my-5">
             <p className="mb-1">Email:</p>
@@ -68,12 +81,50 @@ const CareersPage = (props) => {
             />
           </div>
           <div className="my-5">
-            <p className="mb-1">Resume Link:</p>
+            <p>Resume Link:</p>
+            <div
+              className="flex flex-row mb-1 align-middle"
+              style={{ marginTop: "-3px" }}
+            >
+              <Icon.InfoCircle
+                size={13}
+                className="mr-0"
+                style={{ marginRight: "2px" }}
+              />
+              <p style={{ fontSize: "10px" }}>
+                Upload your resume in Google Drive, OneDrive or MEGA and paste
+                the shared link here.
+              </p>
+            </div>
             <input
               required
               type="text"
               name="resume"
               id="resume"
+              className=" border border-solid bg-gray-100 rounded-2xl w-full p-2 h-10 outline-none"
+            />
+          </div>
+          <div className="my-5">
+            <p>Portfolio Link:</p>
+            <div
+              className="flex flex-row mb-1 align-middle"
+              style={{ marginTop: "-3px" }}
+            >
+              <Icon.InfoCircle
+                size={13}
+                className="mr-0"
+                style={{ marginRight: "2px" }}
+              />
+              <p style={{ fontSize: "10px" }}>
+                Upload your portfolio in Google Drive, OneDrive or MEGA and
+                paste the shared link here.
+              </p>
+            </div>
+            <input
+              required
+              type="text"
+              name="portfolio"
+              id="portfolio"
               className=" border border-solid bg-gray-100 rounded-2xl w-full p-2 h-10 outline-none"
             />
           </div>
