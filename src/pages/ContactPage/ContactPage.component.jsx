@@ -24,11 +24,24 @@ function ContactPage() {
               WE ARE LOOKING FORWARD TO START A PROJECT WITH YOU!
             </p>
           </div>
-          <form action="https://formsubmit.co/studioepic.ar@gmail.com" method="POST" data-aos="fade-up" className="mb-6">
-          <input type="hidden" name="_subject" value="New submission on Contact page!"></input>
-          <input type="hidden" name="_captcha" value="false"></input>
-          <input type="hidden" name="_template" value="table"></input>
-          <input type="hidden" name="_next" value="https://studioepic.netlify.app/"></input>
+          <form
+            action="https://formsubmit.co/studioepic.ar@gmail.com"
+            method="POST"
+            data-aos="fade-up"
+            className="mb-6"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New submission on Contact page!"
+            ></input>
+            <input type="hidden" name="_captcha" value="false"></input>
+            <input type="hidden" name="_template" value="table"></input>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://studioepic.netlify.app/"
+            ></input>
             <div className="m-auto  w-4/5 sm:w-3/5 md:w-2/4 justify-center">
               <div className="my-4">
                 <p className="mb-1">Email:</p>
@@ -129,31 +142,45 @@ function ContactPage() {
             className="flex flex-row items-center m-2 hover:underline"
           >
             <Icon.GeoAlt size={25} className="mr-4 " />
-            <a href="https://goo.gl/maps/VuTEVnQpQR9ox2EH8" target="_blank" rel="noreferrer">NO-484, Saraswathi Sadana 
-            <span></span><br />
-            2nd main, 3rd Cross Rd, 
-            <span></span><br />
-            Lal Bahadur Shastri Nagar, 
-            <span></span><br />
-            Shivamogga, Karnataka - 577201</a>
+            <a
+              href="https://goo.gl/maps/VuTEVnQpQR9ox2EH8"
+              target="_blank"
+              rel="noreferrer"
+            >
+              NO-484, Saraswathi Sadana
+              <span></span>
+              <br />
+              2nd main, 3rd Cross Rd,
+              <span></span>
+              <br />
+              Lal Bahadur Shastri Nagar,
+              <span></span>
+              <br />
+              Shivamogga, Karnataka - 577201
+            </a>
           </div>
           <div
             data-aos="fade-left"
             className="flex flex-row items-center m-2 hover:underline"
           >
             <Icon.Instagram size={25} className="mr-4 " />
-            <a href="/contact">link</a>
+            <a
+              href="https://www.instagram.com/studio_epic_/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @studio_epic_
+            </a>
           </div>
-          <div
+          {/* <div
             data-aos="fade-left"
             className="flex flex-row items-center m-2 hover:underline"
           >
             <Icon.Telegram size={25} className="mr-4 " />
             <a href="/contact">link</a>
-          </div>
+          </div> */}
         </div>
       </div>
-      
     </div>
   );
 }
