@@ -16,8 +16,10 @@ const CareersPage = (props) => {
     <div className="mb-12">
       <NavBar />
       <div data-aos="fade-down">
-        <p className="text-4xl text-center mt-8 tracking-wider">CAREERS</p>
-        <p className="text-2xl text-center mt-2 mb-8 tracking-wide">
+        <p className="text-3xl sm:text-4xl text-center mt-8 tracking-wider">
+          CAREERS
+        </p>
+        <p className="text-xl sm:text-2xl text-center mt-2 mb-8 tracking-wide">
           Enter your details below to apply.
         </p>
       </div>
