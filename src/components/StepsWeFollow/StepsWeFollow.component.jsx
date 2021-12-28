@@ -5,6 +5,7 @@ import Modal from "react-modal";
 import ModalImage from "react-modal-image";
 import OnlineServices from "../../assets/services_icons/OnlineServices.jpg";
 import OnlineServicesNoCrop from "../../assets/services_icons/OnlineServicesNoCrop.jpg";
+import ForOnlineServices from "../../assets/services_icons/ForOnlineServices.jpg";
 import CloseIcon from "../../assets/services_icons/closeIcon.png";
 
 const customStyles = {
@@ -46,14 +47,14 @@ export default function StepsWeFollow() {
     <div className="m-auto mt-16">
       <p
         data-aos="fade-down"
-        className="text-4xl text-center tracking-wider mb-6"
+        className="text-3xl sm:text-4xl text-center tracking-wider mb-3"
       >
-        Steps We Follow
+        For Online Services
       </p>
       <div data-aos="fade-up">
         <img
           onClick={openModal}
-          src={OnlineServices}
+          src={ForOnlineServices}
           alt="ONLINE-SERVICE-AROUND-INDIA"
           border="0"
           style={{ width: "75%", margin: "auto" }}
@@ -76,7 +77,7 @@ export default function StepsWeFollow() {
         />
         <img
           onClick={openModal}
-          src={OnlineServices}
+          src={ForOnlineServices}
           alt="ONLINE-SERVICE-AROUND-INDIA"
           border="0"
         />

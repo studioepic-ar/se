@@ -4,20 +4,23 @@ import "aos/dist/aos.css";
 
 function Moto() {
   return (
-    <div className="main-cont1">
+    <div className="main-cont1 h-300 flex">
       <img
-        // src="https://i.ibb.co/xXGVsT0/marc-olivier-jodoin-o-Thn-HPkb3p8-unsplash.jpg"
-        src="https://i.ibb.co/KKTpLg9/ben-neale-29w9-Fi-MWSr8-unsplash.jpg"
+        src="https://i.ibb.co/QMWjZSD/moto.jpg"
         id="img-cont1"
         alt=""
         style={{ filter: "blur(0.6px)" }}
         data-aos="fade-right"
       />
-      <div className="sub-cont1" data-aos="fade-left">
-        <p className="abt text-2xl md:text-4xl text-black opacity-100 text-center">
+      {/* <div className="sub-cont1" data-aos="fade-left"> */}
+      <div
+        className="flex flex-col m-auto items-center text-center z-50 p-4 sm:p-5 md:p-6 lg:p-8"
+        data-aos="fade-left"
+      >
+        <div className="abt text-2xl md:text-3xl lg:text-4xl text-black opacity-100 text-center">
           OUR MOTO
-        </p>
-        <p className="desc text-sm md:text-xl text-black opacity-100 text-center">
+        </div>
+        <div className="desc text-sm md:text-base lg:text-xl text-black opacity-100 text-center">
           <span></span>
           <br />
           We STUDIO EPIC Architects offer solutions that are elegantly
@@ -34,7 +37,7 @@ function Moto() {
           Our designs are sensitive to the climate, environment, and geography.
           Architecture therefore becomes a celebration of the site’s natural
           beauty, designed to provide positive spatial experiences.
-        </p>
+        </div>
       </div>
     </div>
   );
@@ -42,8 +45,8 @@ function Moto() {
 
 export default Moto;
 
-// <div>
-//   <img src="https://source.unsplash.com/zh7GEuORbUw/600x799" alt="" />
-//   <p>OUR MOTO</p>
-//   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-// </div>;
+{
+  /* <div className="h-20 m-auto w-1/2 bg-red-500 flex">
+      <div className="h-10 m-auto w-1/3 bg-blue-500 "></div>
+    </div> */
+}

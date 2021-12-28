@@ -12,8 +12,10 @@ function About() {
         data-aos="fade-right"
       />
       <div className="sub-cont" data-aos="fade-left">
-        <p className="abt text-3xl text-black opacity-100">ABOUT US </p>
-        <p className="desc text-lg text-black opacity-100">
+        <p className="abt text-2xl sm:text-3xl text-black opacity-100">
+          ABOUT US{" "}
+        </p>
+        <p className="desc text-base sm:text-lg text-black opacity-100">
           <span></span>
           <br />
           STUDIO EPIC is a full-service architecture firm based in Shivamogga,
