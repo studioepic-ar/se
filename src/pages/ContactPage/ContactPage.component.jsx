@@ -17,10 +17,10 @@ function ContactPage() {
       <div className="cont-main">
         <div className="sep-div-form ">
           <div data-aos="fade-down">
-            <p className="text-2xl sm:text-3xl md:text-4xl text-center mt-8 tracking-wider">
+            <p className="text-3xl sm:text-4xl text-center mt-8 tracking-wider">
               GET IN TOUCH
             </p>
-            <p className=" md:text-lg text-center mt-2 mb-2 tracking-wide">
+            <p className="text-lg text-center mt-2 mb-2 tracking-wide">
               WE ARE LOOKING FORWARD TO START A PROJECT WITH YOU!
             </p>
           </div>
