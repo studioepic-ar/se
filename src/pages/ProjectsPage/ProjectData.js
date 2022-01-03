@@ -31,7 +31,7 @@ export const Project = {
     },
     {
       id: 6,
-      projectTitle: "SUDA OFFICE INTERIORS FOR KVP CONSTRUCTIONS",
+      projectTitle: "SUDA OFFICE INTERIORS FOR KVP CONSTRUCTIONS, SHIVAMOGGA",
       projectImage: "https://i.ibb.co/NjgVkTb/5-FRONT-OFFICE.jpg",
     },
     {

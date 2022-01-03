@@ -60,12 +60,12 @@ const ProjectTitle = styled.p`
   }
 
   @media only screen and (min-width: 768px) {
-    font-size: 16px;
+    font-size: 15px;
   }
 
-  @media only screen and (min-width: 1279px) {
+  /* @media only screen and (min-width: 1279px) {
     font-size: 18px;
-  }
+  } */
 `;
 
 export default function ProjectPage() {
