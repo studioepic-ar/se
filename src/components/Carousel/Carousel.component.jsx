@@ -30,6 +30,7 @@ const CMessage = styled.div`
   /* margin: 2rem 3rem; */
   letter-spacing: 0.5px;
   /* background-color: #00000021; */
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
   font-weight: 600;
 
   @media only screen and (min-width: 1024px) {
