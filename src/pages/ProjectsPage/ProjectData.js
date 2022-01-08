@@ -42,8 +42,7 @@ export const Project = {
     {
       id: 8,
       projectTitle: "SRINATH RESIDENCE, SHIVAMOGGA",
-      //todo: change image here
-      projectImage: "https://source.unsplash.com/random",
+      projectImage: "https://i.ibb.co/K2RY4GW/srinath-residence.jpg",
     },
     {
       id: 9,
