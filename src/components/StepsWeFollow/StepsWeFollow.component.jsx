@@ -44,7 +44,7 @@ export default function StepsWeFollow() {
   }
 
   return (
-    <div className="m-auto mt-16">
+    <div className="m-auto mt-8">
       <p
         data-aos="fade-down"
         className="text-3xl sm:text-4xl text-center tracking-wider mb-3"
