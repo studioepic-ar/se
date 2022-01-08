@@ -3,6 +3,8 @@ import { Switch, Route } from "react-router-dom";
 // import { Switch, Route, Link } from "react-router-dom";
 
 import "./App.css";
+import BlogPost from "./components/Blogs/BlogPost";
+import SinglePost from "./components/Blogs/SinglePost";
 import AboutPage from "./pages/AboutPage/AboutPage.component";
 import CareersPage from "./pages/CareersPage/CareersPage.component";
 import ContactPage from "./pages/ContactPage/ContactPage.component";
@@ -20,6 +22,8 @@ function App() {
         <Route exact path="/careers" component={CareersPage} />
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/contact" component={ContactPage} />
+        <Route exact path="/blog/:slug" component={SinglePost} />
+        <Route exact path="/blog" component={BlogPost} />
       </Switch>
     </div>
   );
