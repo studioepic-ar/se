@@ -2,8 +2,6 @@
 import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import "./Navbar.styles.scss";
-import logo from "../../assets/cropped logo black.png";
-import logo_new from "../../assets/logo_new.png";
 import Logo from "../Logo/Logo.component";
 
 export default function NavBar() {
@@ -18,13 +16,6 @@ export default function NavBar() {
       <nav className="navbar" onClick={(e) => e.stopPropagation()}>
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            {/* <img
-              src={logo}
-              alt="logo"
-              width="250px"
-              height={100}
-              className="cursor-pointer object-contain w-52 sm:w-60"
-            /> */}
             <div className="flex lg:-mt-4">
               <Logo />
             </div>
@@ -73,6 +64,17 @@ export default function NavBar() {
                 onClick={click ? handleClick : null}
               >
                 Gallery
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/blog"
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Blogs
               </NavLink>
             </li>
             <li className="nav-item">
