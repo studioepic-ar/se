@@ -4,6 +4,7 @@ import Moto from "../../components/Moto/Moto.component";
 import NavBar from "../../components/NavBar/Navbar.component";
 import Services from "../../components/Services/Services.component";
 import StepsWeFollow from "../../components/StepsWeFollow/StepsWeFollow.component";
+import Teams from "../../components/Teams/Teams.component";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -18,6 +19,7 @@ function AboutPage() {
       <About />
       <Moto />
       <Services />
+      <Teams />
       <StepsWeFollow />
     </div>
   );
