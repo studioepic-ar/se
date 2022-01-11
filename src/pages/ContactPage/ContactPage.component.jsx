@@ -40,7 +40,7 @@ function ContactPage() {
             <input
               type="hidden"
               name="_next"
-              value="https://studioepic.netlify.app/"
+              value="https://studioepic.netlify.app/form-submitted-successfully"
             ></input>
             <div className="m-auto  w-4/5 sm:w-3/5 md:w-2/4 justify-center">
               <div className="my-4">
