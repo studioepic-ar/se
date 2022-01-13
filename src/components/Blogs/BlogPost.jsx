@@ -7,6 +7,10 @@ import Footer from "../Footer/Footer.component.jsx";
 function BlogPost() {
   const [blogData, setBlogData] = useState(null);
 
+  const blogTitleStyle = {
+    textShadow: "1px 1px 2px white, 0 0 1em white, 0 0 0.2em white",
+  };
+
   useEffect(() => {
     sanityClient
       .fetch(
@@ -66,7 +70,10 @@ function BlogPost() {
                         className="w-full h-full rounded-r object-cover absolute"
                       />
                       <span className="relative h-full flex justify-end items-end pr-4 pb-4">
-                        <h3 className="text-gray-800 text-lg font-bold px-3 py-4 bg-white-100 bg-opacity-75 rounded">
+                        <h3
+                          style={blogTitleStyle}
+                          className="text-gray-800 text-lg font-bold px-3 py-4 bg-white-100 bg-opacity-75 rounded"
+                        >
                           {post.title}
                         </h3>
                       </span>
