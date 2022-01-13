@@ -55,7 +55,8 @@ export default function NavBar() {
                 Projects
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* todo: uncomment gallery after adding gallery data */}
+            {/* <li className="nav-item">
               <NavLink
                 exact
                 to="/gallery"
@@ -65,7 +66,7 @@ export default function NavBar() {
               >
                 Gallery
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink
                 exact
