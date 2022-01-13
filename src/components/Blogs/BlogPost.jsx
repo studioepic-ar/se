@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import sanityClient from "../../client.js";
 import { Link } from "react-router-dom";
 import NavBar from "../NavBar/Navbar.component.jsx";
+import Footer from "../Footer/Footer.component.jsx";
 
 function BlogPost() {
   const [blogData, setBlogData] = useState(null);
@@ -41,12 +42,12 @@ function BlogPost() {
       <NavBar />
       <main className="px-12">
         <section className="container mx-auto">
-          <h1 className="text-3xl sm:text-4xl text-center mt-8 tracking-wider">
-            Blog Posts Page
+          <h1 className="text-3xl sm:text-4xl text-center mt-8 tracking-wider mb-10">
+            Architecture Blogs
           </h1>
-          <h2 className="text-xl sm:text-2xl text-center mt-2 mb-8 tracking-wide">
+          {/* <h2 className="text-xl sm:text-2xl text-center mt-2 mb-8 tracking-wide">
             Welcome to my page of blog posts
-          </h2>
+          </h2> */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogData &&
               blogData.map((post, index) => (
@@ -76,6 +77,9 @@ function BlogPost() {
           </div>
         </section>
       </main>
+      <div className="mt-2 sm:mt-10">
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import NavBar from "../../components/NavBar/Navbar.component";
 import "./CareersPage.styles.scss";
 import * as Icon from "react-bootstrap-icons";
+import Footer from "../../components/Footer/Footer.component";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -13,7 +14,7 @@ const CareersPage = (props) => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="mb-12">
+    <div className="">
       <NavBar />
       <div data-aos="fade-down">
         <p className="text-3xl sm:text-4xl text-center mt-8 tracking-wider">
@@ -148,6 +149,9 @@ const CareersPage = (props) => {
           </button>
         </div>
       </form>
+      <div className="mt-2">
+        <Footer />
+      </div>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import NavBar from "../../components/NavBar/Navbar.component";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Footer from "../../components/Footer/Footer.component";
 
 function ContactPage() {
   useEffect(() => {
@@ -180,6 +181,9 @@ function ContactPage() {
             <a href="/contact">link</a>
           </div> */}
         </div>
+      </div>
+      <div className="mt-2">
+        <Footer />
       </div>
     </div>
   );

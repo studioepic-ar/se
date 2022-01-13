@@ -4,6 +4,7 @@ import sanityClient from "../../client.js";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 import NavBar from "../NavBar/Navbar.component.jsx";
+import Footer from "../Footer/Footer.component.jsx";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -88,6 +89,9 @@ function SinglePost() {
           </div>
         </article>
       </main>
+      <div className="mt-2">
+        <Footer />
+      </div>
     </div>
   );
 }

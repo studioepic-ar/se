@@ -1,5 +1,6 @@
 import React from "react";
 import * as Icon from "react-bootstrap-icons";
+import Footer from "../../components/Footer/Footer.component";
 import NavBar from "../../components/NavBar/Navbar.component";
 import "./ThankYouPage.styles.scss";
 
@@ -29,6 +30,9 @@ function ThankYouPage() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="sm:mt-2 lg:mt-4">
+        <Footer />
       </div>
     </div>
   );

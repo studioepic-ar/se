@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import NavBar from "../../components/NavBar/Navbar.component";
 
 import { Project } from "./ProjectData";
+import Footer from "../../components/Footer/Footer.component";
 
 const ProjectContainer = styled.div`
   position: relative;
@@ -94,6 +95,9 @@ export default function ProjectPage() {
             <ProjectTitle>{projectTitle}</ProjectTitle>
           </ProjectContainer>
         ))}
+      </div>
+      <div className="mt-2">
+        <Footer />
       </div>
     </div>
   );

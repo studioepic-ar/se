@@ -5,6 +5,7 @@ import NavBar from "../../components/NavBar/Navbar.component";
 import Services from "../../components/Services/Services.component";
 import StepsWeFollow from "../../components/StepsWeFollow/StepsWeFollow.component";
 import Teams from "../../components/Teams/Teams.component";
+import Footer from "../../components/Footer/Footer.component";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -14,13 +15,14 @@ function AboutPage() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="mb-12">
+    <div className="">
       <NavBar />
       <About />
       <Moto />
       <Services />
       <Teams />
       <StepsWeFollow />
+      <Footer />
     </div>
   );
 }
