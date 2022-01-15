@@ -44,9 +44,3 @@ function Moto() {
 }
 
 export default Moto;
-
-{
-  /* <div className="h-20 m-auto w-1/2 bg-red-500 flex">
-      <div className="h-10 m-auto w-1/3 bg-blue-500 "></div>
-    </div> */
-}

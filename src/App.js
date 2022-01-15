@@ -8,7 +8,7 @@ import SinglePost from "./components/Blogs/SinglePost";
 import AboutPage from "./pages/AboutPage/AboutPage.component";
 import CareersPage from "./pages/CareersPage/CareersPage.component";
 import ContactPage from "./pages/ContactPage/ContactPage.component";
-import GalleryPage from "./pages/GalleryPage/GalleryPage.component";
+// import GalleryPage from "./pages/GalleryPage/GalleryPage.component";
 import Homepage from "./pages/Homepage/Homepage.component";
 import ProjectPage from "./pages/ProjectsPage/Project.component";
 import ThankYouPage from "./pages/ThankYouPage/ThankYouPage.component";
@@ -34,6 +34,5 @@ function App() {
     </div>
   );
 }
-// <Route path="/" component={DemoNav} />
 
 export default App;
