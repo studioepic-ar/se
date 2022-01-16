@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 // import styled from "styled-components";
+import { Helmet } from "react-helmet";
 import "aos/dist/aos.css";
 import NavBar from "../../components/NavBar/Navbar.component";
 import "./CareersPage.styles.scss";
@@ -15,6 +16,13 @@ const CareersPage = (props) => {
   }, []);
   return (
     <div className="">
+      <Helmet>
+        <title>STUDIO EPIC - Careers</title>
+        <meta
+          name="description"
+          content="We are looking for the very best talent who is a 0-2 years experienced Architect who is good at Autocad, Sketchup, Revit, and Photoshop."
+        />
+      </Helmet>
       <NavBar />
       <div data-aos="fade-down">
         <p className="text-3xl sm:text-4xl text-center mt-8 tracking-wider">

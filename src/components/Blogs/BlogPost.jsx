@@ -3,6 +3,7 @@ import sanityClient from "../../client.js";
 import { Link } from "react-router-dom";
 import NavBar from "../NavBar/Navbar.component.jsx";
 import Footer from "../Footer/Footer.component.jsx";
+import { Helmet } from "react-helmet";
 
 function BlogPost() {
   const [blogData, setBlogData] = useState(null);
@@ -43,6 +44,13 @@ function BlogPost() {
 
   return (
     <div>
+      <Helmet>
+        <title>STUDIO EPIC - Architecture Blogs</title>
+        <meta
+          name="description"
+          content="We offer Architecture, Planning, and Interior design services in a diverse range of building types and styles, including residential, commercial, and civic projects."
+        />
+      </Helmet>
       <NavBar />
       <main className="px-12">
         <section className="container mx-auto">

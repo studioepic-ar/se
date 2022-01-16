@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -79,6 +80,13 @@ export default function ProjectPage() {
 
   return (
     <div>
+      <Helmet>
+        <title>STUDIO EPIC - Projects</title>
+        <meta
+          name="description"
+          content="We offer Architecture, Planning, and Interior design services in a diverse range of building types and styles, including residential, commercial, and civic projects."
+        />
+      </Helmet>
       <NavBar />
       <div>
         <p

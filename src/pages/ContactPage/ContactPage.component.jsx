@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import "./ContactPage.styles.scss";
 import "aos/dist/aos.css";
 import * as Icon from "react-bootstrap-icons";
@@ -14,6 +15,13 @@ function ContactPage() {
   }, []);
   return (
     <div>
+      <Helmet>
+        <title>STUDIO EPIC - Contact</title>
+        <meta
+          name="description"
+          content="Get in touch with us for elegant, timeless, and unique architecture that integrates the landscape as part of the solution. We continue to innovate and apply the latest technologies in sustainable design practices."
+        />
+      </Helmet>
       <NavBar />
       <div className="cont-main">
         <div className="sep-div-form ">
