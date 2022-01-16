@@ -2,15 +2,12 @@ import React from "react";
 import "./About.styles.scss";
 import "aos/dist/aos.css";
 
+import AboutPicture from "../../assets/AboutPage/about.jpg";
+
 function About() {
   return (
     <div className="main-cont">
-      <img
-        src="https://i.ibb.co/QjSrb0S/kimi-lee-24t-QMa-V32-Y0-unsplash.jpg"
-        id="img-cont"
-        alt=""
-        data-aos="fade-right"
-      />
+      <img src={AboutPicture} id="img-cont" alt="" data-aos="fade-right" />
       <div className="sub-cont" data-aos="fade-left">
         <p className="abt text-2xl sm:text-3xl text-black opacity-100">
           ABOUT US{" "}

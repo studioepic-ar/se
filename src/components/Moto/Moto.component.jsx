@@ -2,11 +2,13 @@ import React from "react";
 import "./Moto.styles.scss";
 import "aos/dist/aos.css";
 
+import MotoPicture from "../../assets/AboutPage/moto.jpg";
+
 function Moto() {
   return (
     <div className="main-cont1 h-300 flex">
       <img
-        src="https://i.ibb.co/QMWjZSD/moto.jpg"
+        src={MotoPicture}
         id="img-cont1"
         alt=""
         style={{ filter: "blur(0.6px)" }}
