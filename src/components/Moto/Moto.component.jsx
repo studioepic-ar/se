@@ -20,7 +20,7 @@ function Moto() {
         data-aos="fade-left"
       >
         <div className="abt text-2xl md:text-3xl lg:text-4xl text-black opacity-100 text-center">
-          OUR MOTO
+          OUR MOTTO
         </div>
         <div className="desc text-sm md:text-base lg:text-xl text-black opacity-100 text-center">
           <span></span>
