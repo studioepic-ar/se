@@ -12,7 +12,7 @@ export const TeamsData = {
     {
       id: 2,
       memberName: "Ar. Prajwal H.A",
-      memberRole: "CEO",
+      memberRole: "Lead Architect",
       memberImage: "https://i.ibb.co/wzd2ymf/img2.png",
     },
     {
